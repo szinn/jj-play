@@ -14,3 +14,10 @@ jj commit -m "More on branch"
 jj new green
 ls >>branch-2
 jj commit -m "Branch 2"
+branch-1
+branch-2
+first
+README.md
+second
+setup.fish
+third

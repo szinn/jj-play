@@ -1,6 +1,16 @@
-branch-1
-README.md
-setup.fish
-branch-1
-README.md
-setup.fish
+#!/opt/homebrew/bin/fish
+
+ls >>first
+jj commit -m "First change"
+ls >>second
+jj commit -m "Second change"
+ls >>third
+jj commit -m "Third change"
+jj new green
+ls >>branch-1
+jj commit -m "Another branch"
+ls >>branch-1
+jj commit -m "More on branch"
+jj new green
+ls >>branch-2
+jj commit -m "Branch 2"
